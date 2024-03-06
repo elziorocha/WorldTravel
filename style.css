@@ -96,6 +96,7 @@ a {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .nav-header {
@@ -176,14 +177,11 @@ a {
     text-align: center;
 }
 
-.offer-image {
-    overflow: hidden;
-}
-
 .offer-image img {
     max-width: 400px;
     margin-inline: auto;
     border-radius: 5px;
+    box-shadow: 0 0 10px 3px rgb(85, 176, 206);
 }
 
 .offer-content h5 {
@@ -237,6 +235,7 @@ a {
 .service-card {
     border-radius: 5px;
     transition: 0.3s;
+    border: solid 2px rgb(216, 208, 208);
 }
 
 .service-card:hover {
@@ -296,6 +295,7 @@ a {
     max-width: 400px;
     margin-inline: auto;
     border-radius: 5px;
+    box-shadow: 0 0 10px 3px rgb(179, 184, 185);
 }
 
 .client-image img.hide {
@@ -467,11 +467,13 @@ a {
     text-align: center;
     background-color: var(--primary-color);
     border-radius: 5px;
+    border: solid 2px black;
 }
 
 .newsletter-content .section-header {
     color: var(--white);
     text-shadow: -2px 2px black;
+    margin-bottom: 2rem;
 }
 
 .newsletter-content .section-description {
@@ -521,6 +523,7 @@ a {
 
 .footer {
     background-color: var(--extra-light);
+    border-top: solid 1px gray;
 }
 
 .footer-container {
