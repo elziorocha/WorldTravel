@@ -97,6 +97,7 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
+    border-bottom: solid 4px rgb(53, 45, 45);
 }
 
 .nav-header {
@@ -590,6 +591,12 @@ a {
     font-size: 0.9rem;
     color: var(--text-light);
     text-align: center;
+}
+
+@media (width < 540px) {
+    .header-container h1 {
+        font-size: 2rem;
+    }
 }
 
 @media (width > 540px) {
