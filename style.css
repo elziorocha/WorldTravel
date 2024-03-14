@@ -236,7 +236,6 @@ a {
 .service-card {
     border-radius: 5px;
     transition: 0.3s;
-    border: solid 2px rgb(216, 208, 208);
 }
 
 .service-card:hover {
@@ -244,7 +243,9 @@ a {
 }
 
 .service-card img {
-    border-radius: 5px;
+    border-radius: 15px;
+    border: solid 2px rgb(216, 208, 208);
+    box-shadow: 0 0 15px grey;
 }
 
 .service-content {
@@ -296,7 +297,7 @@ a {
     max-width: 400px;
     margin-inline: auto;
     border-radius: 5px;
-    box-shadow: 0 0 10px 3px rgb(179, 184, 185);
+    box-shadow: 0 0 15px 2px rgb(56, 58, 58);
 }
 
 .client-image img.hide {
@@ -414,6 +415,7 @@ a {
 
 .banner-wrapper:hover {
     animation-play-state: paused;
+    cursor: pointer;
 }
 
 .banner-card {
@@ -422,6 +424,7 @@ a {
     isolation: isolate;
     overflow: hidden;
     border-radius: 5px;
+    border: solid 1px grey;
 }
 
 .banner-content {
